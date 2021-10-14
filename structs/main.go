@@ -11,5 +11,8 @@ func main() {
 	me := person{firstName: "Luca", lastName: "Lanziani"}
 	fmt.Println(me)
 	var alex person
+	alex.firstName = "Alex"
+	alex.lastName = "None"
 	fmt.Println(alex)
+	fmt.Printf("%+v", alex)
 }
